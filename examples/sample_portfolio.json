@@ -1,0 +1,28 @@
+{
+  "budget": 10,
+  "projects": [
+    {
+      "code": "A",
+      "cost": 6,
+      "value": 10
+    },
+    {
+      "code": "B",
+      "cost": 5,
+      "value": 8
+    },
+    {
+      "code": "C",
+      "cost": 4,
+      "value": 9,
+      "dependencies": [
+        "A"
+      ]
+    },
+    {
+      "code": "D",
+      "cost": 3,
+      "value": 4
+    }
+  ]
+}
